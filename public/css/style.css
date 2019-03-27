@@ -1,0 +1,74 @@
+* {
+    font-family: Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////
+// Navbar
+//////////////////////////////////////////////////////////////////////////////////////////*/
+
+header {
+    background-color: #333;
+    color: #fff;
+    line-height: 80px;
+    height: 80px;
+
+    margin-bottom: 20px;
+}
+
+nav {
+    width: 80%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul li {
+    list-style: none;
+}
+
+.space {
+    margin-right: 20px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*//////////////////////////////////////////////////////////////////////////////////////////
+// Input
+//////////////////////////////////////////////////////////////////////////////////////////*/
+input {
+    display: block;
+    color: #333;
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 2px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+}
+
+
+
+/*//////////////////////////////////////////////////////////////////////////////////////////
+// Global
+//////////////////////////////////////////////////////////////////////////////////////////*/
+main {
+    width: 80%;
+    margin: 0 auto;
+}
